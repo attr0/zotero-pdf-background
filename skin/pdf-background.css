@@ -1,8 +1,13 @@
 body.default #viewer.pdfViewer > .page > .textLayer{display:block;}
+body.default #viewer.pdfViewer > .spread > .page > .textLayer{display:block;}
 body.daytime #viewer.pdfViewer > .page > .textLayer{display:block;background-color:rgba(243,243,243,0.5);}
-body.nighttime #viewer.pdfViewer > .page > .textLayer{display:block;background-color:rgba(147,147,147,0.5);}
+body.daytime #viewer.pdfViewer > .spread > .page > .textLayer{display:block;background-color:rgba(243,243,243,0.5);}
+body.nighttime #viewer.pdfViewer > .page > .textLayer{display:block;background-color:rgba(227,227,227,0.75);}
+body.nighttime #viewer.pdfViewer > .spread > .page > .textLayer{display:block;background-color:rgba(227,227,227,0.75);}
 body.careeye #viewer.pdfViewer > .page > .textLayer{display:block;background-color:rgba(155,189,133,0.5);}
+body.careeye #viewer.pdfViewer > .spread > .page > .textLayer{display:block;background-color:rgba(155,189,133,0.5);}
 body.parchment #viewer.pdfViewer > .page > .textLayer{display:block;background-color:rgba(191,177,125,0.5);}
+body.parchment #viewer.pdfViewer > .spread > .page > .textLayer{display:block;background-color:rgba(191,177,125,0.5);}
 
 .toolbar .toolbarButton.background-color::before {
     content: "👁";
